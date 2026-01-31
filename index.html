@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Metal Line | Металлические лестницы и ограждения</title>
+<link rel="icon" type="image/x-icon" href="./favicon.ico">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<!-- Шапка -->
+<header class="header">
+<div class="container">
+<div class="header-content">
+    <!-- Логотип (для десктопа и мобильного) -->
+    <div class="logo desktop-logo">
+        <h1>METAL LINE</h1>
+        <p>Металлические лестницы и ограждения</p>
+    </div>
+    <div class="logo mobile-logo">
+        <h1>METAL LINE</h1>
+        <p>Металлические лестницы и ограждения</p>
+    </div>
+
+    <!-- Телефон (для десктопа) -->
+    <div class="header-phone header-phone-desktop">
+        <a href="tel:+79509077300">
+            <i class="fas fa-phone"></i>
+            <span>+7 (950) 907-73-00</span>
+        </a>
+    </div>
+
+    <!-- Телефон (для мобильного, под логотипом) -->
+    <div class="header-phone header-phone-mobile">
+        <a href="tel:+79509077300">
+            <i class="fas fa-phone"></i>
+            <span>+7 (950) 907-73-00</span>
+        </a>
+    </div>
+
+    <!-- Кнопка мобильного меню (только на мобильном) -->
+    <button class="mobile-menu-btn" aria-label="Открыть меню">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Навигация -->
+    <nav class="nav">
+        <a href="#services">Услуги</a>
+        <a href="#portfolio">Работы</a>
+        <a href="#contact">Обратная связь</a>
+    </nav>
+</div>
+</div>
+</header>
+
+<!-- (остальной HTML-код остаётся без изменений) -->
+<section class="hero">
+<div class="container">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h2>Профессиональные металлические лестницы</h2>
+            <p class="subtitle">Изготовление и монтаж металлических конструкций</p>
+            <div class="hero-features">
+                <div class="feature">
+                    <i class="fas fa-check"></i>
+                    <span>Собственное производство</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-check"></i>
+                    <span>Личный монтаж мастером</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-check"></i>
+                    <span>Гарантия на все работы</span>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">
+                    <i class="fas fa-images"></i> Примеры работ
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i> Обратная связь
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="master-card">
+                <div class="master-name">
+                    <h3>Евгений Козин</h3>
+                    <p>Мастер</p>
+                </div>
+                <div class="master-info">
+                    <div class="info-item">
+                        <i class="fas fa-cogs"></i>
+                        <span>Индивидуальный подход</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-hard-hat"></i>
+                        <span>Личный контроль качества</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section id="services" class="services">
+<div class="container">
+    <h2 class="section-title">Наши услуги</h2>
+    <p class="section-subtitle">Все работы выполняем и монтируем лично</p>
+    <div class="services-grid">
+        <div class="service-card">
+            <div class="service-icon">
+                <i class="fas fa-stairs"></i>
+            </div>
+            <h3>Металлические каркасы лестниц</h3>
+            <p>Изготовление прочных каркасов лестниц из профильной трубы</p>
+            <ul class="service-list">
+                <li>Ломаные косоуры</li>
+                <li>Монокосоуры</li>
+                <li>Каркас под зашивку</li>
+            </ul>
+        </div>
+        <div class="service-card">
+            <div class="service-icon">
+                <i class="fas fa-grip-lines"></i>
+            </div>
+            <h3>Перила и ограждения</h3>
+            <p>Производство металлических перил и ограждений</p>
+            <ul class="service-list">
+                <li>Для лестниц</li>
+                <li>Для балконов</li>
+                <li>Кованые элементы</li>
+            </ul>
+        </div>
+        <div class="service-card">
+            <div class="service-icon">
+                <i class="fas fa-key"></i>
+            </div>
+            <h3>Лестницы под ключ</h3>
+            <p>Полный цикл от каркаса до финишной отделки</p>
+            <ul class="service-list">
+                <li>Металлические перила</li>
+                <li>Металлические каркасы</li>
+                <li>Установка ступеней</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</section>
+
+<section id="portfolio" class="portfolio">
+<div class="container">
+    <h2 class="section-title">Наши работы</h2>
+    <p class="section-subtitle">Примеры выполненных проектов</p>
+    <div class="portfolio-grid">
+        <div class="portfolio-item">
+            <div class="portfolio-img" onclick="openModal('images/под%20ключ.jpg', 'Лестница под ключ')" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/под%20ключ.jpg') center/cover; cursor: pointer;">
+                <div class="work-type">Лестница под ключ</div>
+                <div class="zoom-icon">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="portfolio-info">
+                <h3>Лестница под ключ</h3>
+                <p>Полный цикл работ: металлический каркас, ступени, перила. Готовое решение для вашего дома от проекта до установки.</p>
+                <div class="portfolio-tags">
+                    <span>Полный комплект</span>
+                    <span>Готовая лестница</span>
+                    <span>Под ключ</span>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-img" onclick="openModal('images/ломаный%20косоур.jpg', 'Ломаный косоур')" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/ломаный%20косоур.jpg') center/cover; cursor: pointer;">
+                <div class="work-type">Ломаный косоур</div>
+                <div class="zoom-icon">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="portfolio-info">
+                <h3>Ломаный косоур</h3>
+                <p>Ломанный косоур - это два косоура обладающих ступенчатой, Z-образной формой, сделаные, как правило из профтрубы 100х50 мм. К которым варятся маленькие пластинки во внутренней части для крепления ступеней.</p>
+                <div class="portfolio-tags">
+                    <span>Профильная труба</span>
+                    <span>Z-образная форма</span>
+                    <span>Прочность</span>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-img" onclick="openModal('images/монокосоур.jpg', 'Монокосоур')" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/монокосоур.jpg') center/cover; cursor: pointer;">
+                <div class="work-type">Монокосоур</div>
+                <div class="zoom-icon">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="portfolio-info">
+                <h3>Монокосоур</h3>
+                <p>Конструкция в которой делается основная несущая балка из проф трубы, как правило 100х100 мм, на ней устанавливаются опоры из этой же трубы для пластин толщиной 6 мм, которые служат креплением для деревянных ступеней. Минималистичный стиль и современный дизайн.</p>
+                <div class="portfolio-tags">
+                    <span>Единая несущая балка</span>
+                    <span>Современный дизайн</span>
+                    <span>Минимализм</span>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-img" onclick="openModal('images/под%20зашивку.jpg', 'Каркас под зашивку')" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/под%20зашивку.jpg') center/cover; cursor: pointer;">
+                <div class="work-type">Каркас под зашивку</div>
+                <div class="zoom-icon">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="portfolio-info">
+                <h3>Каркас лестницы под зашивку</h3>
+                <p>Прочный металлический каркас для последующей обшивки деревом или другими материалами. Надежная основа под любую отделку.</p>
+                <div class="portfolio-tags">
+                    <span>Под обшивку</span>
+                    <span>Прочная основа</span>
+                    <span>Любая отделка</span>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-img" onclick="openModal('images/перила%20и%20ограждения.jpg', 'Перила и ограждения')" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/перила%20и%20ограждения.jpg') center/cover; cursor: pointer;">
+                <div class="work-type">Перила и ограждения</div>
+                <div class="zoom-icon">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="portfolio-info">
+                <h3>Металлические перила и ограждения</h3>
+                <p>Изготовление и установка металлических перил. Возможен вариант с элементами художественной ковки. Сочетание прочности и эстетики.</p>
+                <div class="portfolio-tags">
+                    <span>Художественная ковка</span>
+                    <span>Сварные соединения</span>
+                    <span>Надежность</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ссылка на Telegram канал -->
+    <div class="telegram-channel-link">
+        <h3>Больше примеров работ в нашем Telegram-канале:</h3>
+        <a href="https://t.me/Metal_Line" target="_blank" class="btn btn-tertiary">
+            <i class="fab fa-telegram-plane"></i> Перейти в Telegram
+        </a>
+    </div>
+    <!-- /Ссылка на Telegram канал -->
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="container">
+    <h2 class="section-title">Обратная связь</h2>
+    <p class="section-subtitle">Свяжитесь с нами для обсуждения вашего проекта</p>
+    <div class="contact-content">
+        <div class="contact-info">
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                    <h4>Расположение</h4>
+                    <p>Тульская область</p>
+                    <p class="small">Работаем по всей области</p>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div>
+                    <h4>Телефон</h4>
+                    <a href="tel:+79509077300">+7 (950) 907-73-00</a>
+                    <p class="small">Евгений</p>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fab fa-telegram"></i>
+                </div>
+                <div>
+                    <h4>Telegram</h4>
+                    <a href="https://t.me/Metal_line71" target="_blank">@Metal_line71</a>
+                    <!-- Удалена строка "Связь напрямую с мастером" -->
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                    <h4>Email</h4>
+                    <a href="mailto:Kozin-evgeny@bk.ru">Kozin-evgeny@bk.ru</a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h3>Написать нам</h3>
+            <form id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Телефон" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Опишите ваш проект или задайте вопрос" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Отправить сообщение
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+</section>
+
+<footer class="footer">
+<div class="container">
+    <div class="footer-content">
+        <div class="footer-brand">
+            <h3>METAL LINE</h3>
+            <p>Металлические лестницы и ограждения</p>
+            <p class="footer-desc">Изготовление и монтаж металлоконструкций</p>
+        </div>
+        <div class="footer-contact">
+            <h4>Контакты</h4>
+            <p><i class="fas fa-phone"></i> +7 (950) 907-73-00</p>
+            <p><i class="fab fa-telegram"></i> <a href="https://t.me/Metal_line71" target="_blank">@Metal_line71</a></p>
+            <p><i class="fas fa-envelope"></i> Kozin-evgeny@bk.ru</p>
+            <p><i class="fas fa-map-marker-alt"></i> Тульская область</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2024</span> Metal Line. Евгений Козин</p>
+    </div>
+</div>
+</footer>
+
+<!-- Модальное окно для увеличенных фото -->
+<div id="imageModal" class="modal">
+<div class="modal-content">
+    <span class="close-modal" onclick="closeModal()">&times;</span>
+    <img id="modalImage" src="" alt="Увелишенное фото">
+    <div id="modalCaption"></div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>ы
